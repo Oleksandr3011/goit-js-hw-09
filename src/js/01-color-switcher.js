@@ -26,7 +26,7 @@ function stopchangeColorFunc(event) {
     clearInterval(timerId);
     makeBtn(startBtnEl, stopBtnEl);
     startBtnEl.disabled = false;
-    startBtnEl.disabled = true;
+    stopBtnEl.disabled = true;
 }
 
 function makeBtn(a, b) {
